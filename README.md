@@ -8,6 +8,9 @@ npm install
 ## Let's setup typescript
 https://typescript.nuxtjs.org/guide/
 
+If you get error 'Parsing error: Unexpected token, expected ","', comment // parser: 'babel-eslint' in .eslintrc.js
+https://stackoverflow.com/questions/58347976/is-there-a-way-to-fix-this-typescript-eslint-issue-in-nuxtjs
+
 
 ## Build Setup
 

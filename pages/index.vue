@@ -10,7 +10,7 @@
       md6
     >
       <div class="text-center">
-        <logo />
+        <logo :user="user" />
         <vuetify-logo />
       </div>
       <v-card>
@@ -87,6 +87,15 @@ export default {
   components: {
     Logo,
     VuetifyLogo
+  },
+  data () {
+    return {
+      user: {
+        firstName: 'John',
+        lastName: 'Doe'
+      }
+    }
   }
+
 }
 </script>
